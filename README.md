@@ -7,12 +7,18 @@
 
 ### 👉 [LINK DO PROJETO BASE 🖱](https://github.com/lucarauj/criacao-de-API-parking-control-com-Java)
 
+<br>
+
 - ✅ Versão utilizada: Spring boot: 2.6.3 / Spring boot Security: 2.6.3
 
 - ❌ Top 10 Vulnerabilidades de Segurança em Aplicações Web: https://owasp.org/www-project-top-ten/
 
+<br>
+
 - 401 Unauthorized: usuário não logado; precisa enviar as credenciais corretas de acesso;
 - 403 Forbidden: usuário logado mas não autorizado a acessar recurso específicos;
+
+<br>
 
 - ⚙ Configurando arquivo ```pom.xml```:
 
@@ -34,6 +40,8 @@ insert into tb_user values('uuid', 'encode', 'marta');
 - ☢ UUID: https://www.uuidgenerator.net/
 - ☢ gen_random_uuid()
 - ☢ System.out.println(new BCryptPasswordEncoder().encode("senha123"));
+
+<br>
 
 - 🛒 Populando o banco de dados com um Perfil de Usuário:
 
